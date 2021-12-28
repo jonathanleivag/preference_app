@@ -19,7 +19,7 @@ class HomeView extends StatelessWidget {
         children: [
           Text('IsDarkMode: ${Preferences.isDarkMode}'),
           const Divider(),
-          Text('Genero: ${Preferences.gender}'),
+          Text('Genero: ${Preferences.gender == 1 ? 'masculino': 'femenino'}'),
           const Divider(),
           Text('Nombre de usuario: ${Preferences.name}'),
           const Divider(),
